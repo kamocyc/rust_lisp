@@ -221,6 +221,7 @@ fn parse(tokens: &Vec<Token>, index: usize) -> (Sexp, usize) {
   }
 }
 
+// 後置記法で計算するやつ
 // fn eval_calc(tokens: Vec<Token>) -> i32 {
 //   let mut stack = Stack::new();
   
